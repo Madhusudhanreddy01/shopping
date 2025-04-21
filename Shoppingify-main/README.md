@@ -16,7 +16,7 @@ Shoppingify is an intuitive app allowing users to manage shopping lists effortle
  Node version 20.x
 ## Cloning the repository
 
-https://github.com/Abishek5656/Shoppingify.git
+https://github.com/Madhusudhanreddy01/shopping/tree/main/Shoppingify-main
 ## Install packages
 
 npm i
