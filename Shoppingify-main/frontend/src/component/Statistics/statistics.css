@@ -1,0 +1,46 @@
+.statistics_container {
+    width: 100%;
+    padding: 2rem 1rem;
+    overflow: scroll;
+}
+
+@media only screen and (min-width: 530px) {
+    .statistics_container {
+        padding: 2rem 3rem;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .statistics_container {
+    }
+
+    .statistics_container-content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .statistics_container {
+        padding: 2.5rem 4.5rem;
+    }
+
+    .statistics_container-content {
+        justify-content: center;
+        gap: 45px;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+  
+}
+
+@media only screen and (min-width: 1280px) {
+    .statistics_container {
+        padding: 3rem 5rem;
+    }
+}
+
+@media only screen and (min-width: 1536px) {
+}

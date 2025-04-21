@@ -1,0 +1,66 @@
+.addItem_container {
+    padding: 1.5rem 1rem; 
+    width: 100%;
+}
+
+.addItem_container-title {
+    font-family: "Quicksand";
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 30px;
+    color: #000000;
+}
+
+.formDiv {
+    margin-top: 20px;
+}
+
+.selectedText {
+    color: #f9a109;
+}
+
+.inputfield {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.inputfield label {
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #34333a;
+    margin-bottom: 10px;
+}
+
+.inputfield input {
+    border-radius: 8px;
+    border: 1px solid #bdbdbd;
+    padding: 0.75rem;
+}
+
+.inputfield input:hover {
+    border: 1px solid #f9a109;
+}
+
+.inputfield textarea {
+    border-radius: 8px;
+    outline: 1px solid #bdbdbd;
+    padding: 0.75rem;
+}
+
+.inputfield textarea:hover {
+    outline: 1px solid #f9a109;
+}
+
+.category  {
+    position: relative;
+}
+
+.crossIcon {
+    position: absolute;
+    top: 0;
+}
+
+

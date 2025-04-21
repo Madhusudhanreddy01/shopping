@@ -1,0 +1,32 @@
+.shoppingcart_container {
+    overflow: scroll;
+}
+
+.item_category {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+.item_category-title {
+    font-family: "Quicksand";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #828282;
+    text-transform: capitalize;
+}
+
+@media only screen and (min-width: 1024px) {
+    .shoppingcart_container {
+        padding: 0.5rem 1rem;
+        margin-bottom: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .shoppingcart_container {
+        padding: 0.75rem 1rem 3rem
+    }
+}
